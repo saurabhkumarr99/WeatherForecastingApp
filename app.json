@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "WeatherForecastApp",
-    "slug": "WeatherForecastApp",
+    "slug": "weatherforecastingapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "75e6743b-ceda-4d4a-9120-8578a80dc0d0"
+      }
+    },
+    "owner": "saurabhkumarr99",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/75e6743b-ceda-4d4a-9120-8578a80dc0d0"
     }
   }
 }
